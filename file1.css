@@ -1,0 +1,17 @@
+div {
+    padding: 50px;
+    margin: 20px;
+}
+.box1{
+    width: 100px;
+    background-color: red;
+}
+.box2{
+    width: 100px;
+    position: relative;
+    background-color: blue;
+}
+.box3{
+    width: 300px;
+    background-color: green;
+}
