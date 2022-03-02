@@ -1,17 +1,41 @@
-div {
-    padding: 50px;
-    margin: 20px;
+@font-face {
+    font-family: 'Slabo 27px', serif;
+    src: url(https://fonts.googleapis.com/css?family=Slabo+27px);
 }
 .box1{
+    position: absolute;
     width: 100px;
+    height: 100px;
     background-color: red;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
 }
 .box2{
+    position: absolute;
     width: 100px;
-    position: relative;
+    height: 100px;
+    margin-left: 200px;
     background-color: blue;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
 .box3{
-    width: 300px;
-    background-color: green;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    background: green;
+    border-radius: 20px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    
 }
